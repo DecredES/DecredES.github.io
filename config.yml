@@ -1,0 +1,4 @@
+baseURL: "http://localhost:33783/"
+languageCode: "es"
+title: "Decred en Español"
+theme: "decredes"
