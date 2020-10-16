@@ -1,3 +1,4 @@
 ---
 title: "Revista"
+type: "section"
 ---

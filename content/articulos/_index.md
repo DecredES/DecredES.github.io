@@ -1,3 +1,4 @@
 ---
-title: Articulos
+title: "Articulos"
+type: "section"
 ---

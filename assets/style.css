@@ -29,9 +29,61 @@ section.second {
   padding-bottom: 25px;
 }
 
+/* Featured Page */
+#featured-jumbo {
+  background-color: #2970ff !important;
+}
 
+div#featured-jumbo.jumbotron.bg-dark div.row div.col-sm a.btn.btn-primary.btn-lg {
+  background-color: white;
+  color: #0e0e0e;
+}
+
+#featured-img {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  max-height: 300px;
+  /* margin-bottom: 1rem; */
+}
+
+/* CONTENT */
+
+.content {
+  color: white;
+}
+
+/* PODCASTS */
+
+#podcast {
+  /* margin: 25px; */
+  padding: 50px;
+  background-color: #091440;
+}
+
+#podcast .media img {
+  max-height: 200px;
+  margin-left: auto;
+}
+
+#podcast .media {
+  background-color: #2970ff;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
+.last-podcast {
+  max-width: 400px;
+}
+
+.podcast-text {
+  text-align: left;
+  color: white;
+}
 
 /* Social Bar */
+
 
 section.socialbar {
   background-color: #2ED6A1;
@@ -73,6 +125,8 @@ ul.social-media-list img {
 .page-footer {
   color: white;
 }
+
+
 
 
 

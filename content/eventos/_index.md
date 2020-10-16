@@ -1,3 +1,4 @@
 ---
-title: Eventos
+title: "Eventos"
+type: "section"
 ---

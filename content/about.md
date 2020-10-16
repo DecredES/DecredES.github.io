@@ -1,5 +1,4 @@
 ---
 title: "Decred"
+type: "section"
 ---
-
-DS

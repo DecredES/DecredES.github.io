@@ -1,0 +1,19 @@
+<section>
+    <div class="container">
+        <div class="jumbotron bg-dark" id="featured-jumbo">
+            {{ range first 1 .Pages }}
+            <div class="row">
+                <div class="col-sm">
+                    <img src="/img/dcr-logo-white.png" alt="" id="featured-img" class="center-cropped">
+                </div>
+                <div class="col-sm">
+                    <h1 class="display-4">{{ .Title }}</h1>
+                    <p class="lead">{{ .Description }}</p>
+                    <hr class="my-4">
+                    <a class="btn btn-primary btn-lg" href="{{ .Permalink }}" role="button">Leer más</a>
+                </div>
+            </div>
+            {{ end }}
+          </div>
+    </div>
+</section>
