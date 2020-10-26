@@ -1,4 +1,0 @@
----
-title: "Decred en Español"
-
----

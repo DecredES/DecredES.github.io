@@ -1,0 +1,19 @@
+<section class="second">
+<div class="container">
+
+<div class="row">
+<div class="card-deck">
+    {{ range (where .Site.RegularPages.ByDate "Section" "articulos" | first 3 ) }}
+        <div class="card">
+        <a href="{{ .Permalink }}"><img src="{{ .Params.imagen }}" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+          <p class="card-text">{{ .Description }}</p>
+          <p class="card-text"><small class="text-muted">{{ .Params.fecha }}</small></p>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+</div>
+</section>

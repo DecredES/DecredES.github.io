@@ -1,0 +1,31 @@
+<section id="podcast">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                
+                <img src="/img/podcast2.png" class="mr-3 last-podcast" alt="...">
+                <div class="podcast-text">
+                    <h1>Qué es Decred</h1>
+                    <h4>ft. Elian Huesca</h4>
+                </div>
+            </div>
+            <div class="col-sm">
+                <ul class="list-unstyled">
+                    {{ range where .Site.RegularPages "Section" "podcast" }}
+                    <li class="media">
+                      <img src="{{ .Params.imagen }}" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">{{ .Title }}</h5>
+                        <p>{{ .Description }}</p>
+                        <ul>
+                          <li><a href="{{ .Params.youtubeurl }}">Ver video</a></li>
+                        </ul>
+                        <p>{{ .Params.fecha }}</p>
+                      </div>
+                    </li>
+                    {{ end }}
+                  </ul>
+            </div>
+        </div>
+    </div>  
+</section>

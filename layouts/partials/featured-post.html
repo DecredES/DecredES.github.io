@@ -1,0 +1,12 @@
+<section class="first">
+    {{ range (where .Site.RegularPages "Params.featured" "true").ByDate.Reverse | first 1 }}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <img src="{{ .Params.imagen }}" alt="">
+            <h1 class="display-1">{{ .Title }}</h1>
+            <p class="lead">{{ .Description }}</p>
+            <a class="btn btn-primary btn-lg" href="{{ .Permalink }}" role="button">Leer más</a>
+        </div>
+    </div>
+    {{ end }}
+</section>

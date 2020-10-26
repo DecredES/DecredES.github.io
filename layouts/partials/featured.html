@@ -1,7 +1,7 @@
 <section>
     <div class="container">
         <div class="jumbotron bg-dark" id="featured-jumbo">
-            {{ range first 1 .Pages }}
+            {{ range where .Site.RegularPages "Params.featured" "true"}}
             <div class="row">
                 <div class="col-sm">
                     <img src="/img/dcr-logo-white.png" alt="" id="featured-img" class="center-cropped">

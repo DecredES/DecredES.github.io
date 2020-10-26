@@ -1,4 +1,0 @@
----
-title: "Podcast"
-type: "section"
----
