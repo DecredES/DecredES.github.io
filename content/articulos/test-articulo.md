@@ -1,8 +1,8 @@
 ---
-title: "Articulo de prueba"
+title: "Lorem ipsum sit amet"
 description: "Este es un artículo de prueba del sitio de Decred en Español."
 fecha: "2020-10-26"
-imagen: "img/podcast2.png"
+imagen: "http://via.placeholder.com/1200x628"
 ---
 
 ASDas ads asd das das asd dsa 

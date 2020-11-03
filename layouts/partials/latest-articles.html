@@ -1,19 +1,37 @@
-<section class="second">
-<div class="container">
+<section class="articles">
+  <h1>Últimos artículos</h1>
+  {{ range (where .Site.RegularPages.ByDate "Section" "articulos" | first 3 ) }}
+    <div class="article">
+      <img src="{{ .Params.imagen }}" alt="article image" class="article-img">
+      <div class="article-text">
+        <h4 class="article-title">{{ .Title }}</h2>
+        <p class="article-date">{{ .Params.fecha }}</p>
+        <p class="article-desc">{{ .Params.description }}</p>
+      </div>
+    </div>
+  {{ end }}
+  <button>
+    Ver más
+  </button>
+</section>
 
+
+
+<!-- <section class="articles">
+<div class="container">
 <div class="row">
 <div class="card-deck">
-    {{ range (where .Site.RegularPages.ByDate "Section" "articulos" | first 3 ) }}
-        <div class="card">
-        <a href="{{ .Permalink }}"><img src="{{ .Params.imagen }}" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-          <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-          <p class="card-text">{{ .Description }}</p>
-          <p class="card-text"><small class="text-muted">{{ .Params.fecha }}</small></p>
-        </div>
-      </div>
-    {{ end }}
+    {{ range (where .Site.RegularPages.ByDate "Section" "articulos" | first 3 ) }} -->
+        <!-- <div class="card">
+          <a href="{{ .Permalink }}"><img src="{{ .Params.imagen }}" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+            <p class="card-text">{{ .Description }}</p>
+            <p class="card-text"><small class="text-muted">{{ .Params.fecha }}</small></p>
+          </div>
+        </div> -->
+    <!-- {{ end }}
   </div>
 </div>
 </div>
-</section>
+</section> -->
