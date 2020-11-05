@@ -12,3 +12,19 @@ body {
     --palid-blue: #3D5873;
     font-family: Source Sans Pro;
 }
+
+.container {
+    max-width: 1140px;
+    @media(max-width: 992px) {
+        max-width: 960px;
+    }
+    @media(max-width: 768px) {
+        max-width: 720px;
+    }
+    @media(max-width: 576px) {
+        max-width: 540px;
+    }
+    @media(max-width: 475px) {
+        width: 100%;
+    }
+}

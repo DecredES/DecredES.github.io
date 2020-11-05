@@ -2,7 +2,7 @@
 @import "navigation";
 @import "main";
 @import "last-articles";
-  
+@import "social-media-bar";
 
   
   
@@ -82,16 +82,6 @@
   
   /* Social Bar */
   
-  section.separator-bar {
-    background-color: #2ED6A1;
-    padding: 5px;
-    display: grid;
-    /* grid-template-columns: ; */
-    /* box-shadow: 10px 0 0px rgba(0, 0, 0, 0.8); */
-  
-    /* border-top: 5px inset rgba(0,0,0,0.1); */
-  }
-  
   section.separator-bar-grid {
     background-color: #2ED6A1;
     padding: 5px;
@@ -144,35 +134,8 @@
     text-align: left;
     margin: 0px;
   }
-  #unete {
-    color: #091440;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 600;
-  }
-  
-  ul.social-media-list {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin-top: 0px;
-  }
-  
-  
-  
-  .social-media-list li {
-    display: inline;
-  }
-  
-  .social-media-list li a {
-    vertical-align: middle;
-    color: #091440;
-    font-size: 2em;
-    text-align: center;
-    margin: 0 0.25em 0 0.25em;
-  }
-  
+
+
   .page-footer {
     color: white;
   }
