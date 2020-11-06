@@ -18,9 +18,11 @@
             font-size: 1.6em;
             font-weight: 600; 
             margin: 0;
+            margin-right: 2rem;
             text-transform: uppercase;
             @media(max-width: 1024px) {
                 margin-bottom: 1rem;
+                margin-right: 0rem;
             }
             @media(max-width: 475px) {
                 font-size: 1.2em;
