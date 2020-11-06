@@ -46,6 +46,13 @@ body {
     padding: 0 10px;
     text-transform: uppercase;
     width: 195px;
+    &:hover {
+        background-color: #FFE4A7;
+    }
+    &:focus {
+        border: none;
+        outline: none;
+    }
     @media(max-width: 475px) {
         font-size: 0.7rem;
         padding: 0 7px;
