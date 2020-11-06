@@ -2,3 +2,11 @@ baseURL: "http://localhost:33783/"
 languageCode: "es"
 title: "Decred en Español"
 # theme: "decredes"
+
+params: 
+  twitteruser: "Decred_ES"
+  instagramuser: "decred_es"
+  telegramuser: "DecredES"
+  youtubeuser: "UCCprOo4gR1vsjJTAzv8BMBQ"
+  facebookuser: "DecredESP"
+  githubuser: "DecredES"
