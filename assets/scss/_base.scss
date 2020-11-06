@@ -11,6 +11,7 @@ html {
 body {
     --palid-blue: #3D5873;
     font-family: Source Sans Pro;
+    background-color: #0e0e0e;
 }
 
 .container {
@@ -27,4 +28,22 @@ body {
     @media(max-width: 475px) {
         width: 100%;
     }
+}
+
+// Buttons
+
+.btn-main {
+    background-color: #FFC84D;
+    border: 0;
+    border-radius: 25px;
+    color: #091440;
+    cursor: pointer;
+    font-family: Source Sans Pro;
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 26px;
+    margin-top: 5px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    width: 195px;
 }
