@@ -25,6 +25,9 @@
             @media(max-width: 475px) {
                 font-size: 1.2em;
             }
+            @media(max-width: 280px) {
+                font-size: 0.9em;
+            }
         }
         .social-media-list {
             display: flex;
@@ -46,6 +49,9 @@
                     }
                     @media(max-width: 475px) {
                         font-size: 1.5rem;
+                    }
+                    @media(max-width: 280px) {
+                        font-size: 1.4em;
                     }
                  }
             }

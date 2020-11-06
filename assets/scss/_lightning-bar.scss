@@ -7,15 +7,28 @@ section.separator-bar-grid {
     align-items: center;
     display: flex;
     justify-content: center;
+    @media(max-width: 1024px) {
+      flex-direction: column;
+    }
     img {
       margin-right: 2rem;
       width: 75px;
+      @media(max-width: 1024px) {
+        margin-right: 0;
+      }
+      @media(max-width: 280px) {
+        width: 65px;
+      }
     }
     .text {
       align-items: center;
       display: flex;
       margin: 0;
       padding: 5px;
+      @media(max-width: 1024px) {
+        display: grid;
+        place-items: center;
+      }
       p {  
         font-size: 1.6em;
         font-weight: 600; 
@@ -23,6 +36,14 @@ section.separator-bar-grid {
         margin-right: 2rem;
         text-align: left;
         text-transform: uppercase;
+        @media(max-width: 475px) {
+          font-size: 1.2em;
+          margin-right: 0;
+          text-align: center;
+        }
+        @media(max-width: 280px) {
+          font-size: 0.9em;
+        }
       }
     }
   }
