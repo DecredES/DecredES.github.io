@@ -41,7 +41,7 @@ body {
     font-family: Source Sans Pro;
     font-size: 0.9rem;
     font-weight: bold;
-    height: 26px;
+    height: 36px;
     margin-top: 5px;
     padding: 0 10px;
     text-transform: uppercase;
@@ -55,6 +55,7 @@ body {
     }
     @media(max-width: 475px) {
         font-size: 0.7rem;
+        height: 26px;
         padding: 0 7px;
         width: 185px;
     }
